@@ -423,5 +423,5 @@ function changeStatus() {
 
 //Random
 global.random = function (maxLength) {
-    return Math.floor(Math.random() * maxLength)
+    return Math.round(Math.random() * maxLength)
 }
