@@ -406,8 +406,8 @@ client.on("interactionCreate", interaction => {
 
 //Change Status
 function changeStatus() {
-    const playing = ["?help", "/help", "sus"];
-    currentlyPlaying = random(playing.length);
+    const playing = ["/help", "hello chat"];
+    currentlyPlaying = random(playing.length - 1);
 
     if (maintenance) {
         client.user.setActivity(`maintenance!!!!`);
