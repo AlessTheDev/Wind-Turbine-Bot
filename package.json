@@ -1,0 +1,27 @@
+{
+  "name": "wind-turbine",
+  "version": "1.0.0",
+  "description": "Source code of my discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlessTheDev/Wind-Turbine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlessTheDev/Wind-Turbine/issues"
+  },
+  "homepage": "https://github.com/AlessTheDev/Wind-Turbine#readme",
+  "dependencies": {
+    "canvas": "^2.10.2",
+    "discord.js": "^13.8.1",
+    "gifencoder": "^2.0.1",
+    "mongodb": "^4.11.0",
+    "reddit-fetch": "^1.5.1",
+    "wikipedia": "^1.1.9"
+  }
+}
