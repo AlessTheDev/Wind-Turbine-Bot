@@ -1,4 +1,4 @@
-const PlayerTris = require("./PlayerTris");
+const PlayerTris = require("./PlayerTris.js");
 
 module.exports = class TrisLobby {
     constructor(user1, user2) {

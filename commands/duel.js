@@ -1,7 +1,7 @@
 const Canvas = require("canvas");
 const { MessageAttachment } = require("discord.js");
-const DuelLobby = require("./duelLobby");
-const DuelObject = require("./DuelObject");
+const DuelLobby = require("./duelLobby.js");
+const DuelObject = require("./DuelObject.js");
 
 const objects = [
     new DuelObject("knife :knife:", 25, -5),

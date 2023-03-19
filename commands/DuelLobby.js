@@ -1,4 +1,4 @@
-const PlayerDuel = require("./PlayerDuel");
+const PlayerDuel = require("./PlayerDuel.js");
 
 module.exports = class DuelLobby{
     constructor(user1, user2){

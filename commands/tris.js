@@ -1,4 +1,4 @@
-const TrisLobby = require("./TrisLobby");
+const TrisLobby = require("./TrisLobby.js");
 
 module.exports = {
     name: "tris",
