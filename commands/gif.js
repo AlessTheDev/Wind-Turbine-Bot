@@ -4,7 +4,7 @@ const Canvas = require("canvas");
 const { MessageAttachment } = require("discord.js");
 const { registerFont } = require('canvas')
 
-registerFont('../Roboto-Black.ttf', { family: 'Roboto' })
+registerFont('./Roboto-Black.ttf', { family: 'Roboto' })
 
 module.exports = {
     name: "gif",
