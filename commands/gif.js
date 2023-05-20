@@ -3,6 +3,8 @@ const fs = require('fs');
 const Canvas = require("canvas");
 const { MessageAttachment } = require("discord.js");
 
+registerFont('../Roboto-Black.ttf', { family: 'Roboto' })
+
 module.exports = {
     name: "gif",
     description: "",
@@ -26,7 +28,7 @@ async function MakeGif(text) {
 
     const ctx = canvas.getContext('2d');
     ctx.fillStyle = '#ffffff'
-    ctx.font = '35px Sans'
+    ctx.font = '35px Roboto'
     await Canvas.loadImage(`https://media.discordapp.net/attachments/899656353470087178/991265640230948935/Screenshot_2022-06-28_at_10-50-34_Objection_1.png`)
         .then(async img => {
             canvas.context.drawImage(img, 0, 0, 1080, 720);
@@ -34,7 +36,7 @@ async function MakeGif(text) {
     ctx.fillText(text.replace(/.{66}/g, '$&-\n'), 5, 580)
     encoder.addFrame(ctx);
 
-    ctx.font = '35px Sans'
+    ctx.font = '35px Roboto'
     await Canvas.loadImage(`https://media.discordapp.net/attachments/899656353470087178/991265639912177724/Screenshot_2022-06-28_at_10-50-25_Objection.png`)
         .then(async img => {
             canvas.context.drawImage(img, 0, 0, 1080, 720);
